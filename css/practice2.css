@@ -1,0 +1,167 @@
+@font-face {
+    font-family: shabnam;
+    src: url(../files/fonts/Shabnam.ttf)
+}
+@font-face {
+    font-family: iran-yekan;
+    src: url(../files/fonts/Iranyekan-medium.ttf);
+}
+@font-face {
+    font-family: lalezar;
+    src: url(../files/fonts/Lalezar-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: iran-yekan;
+    
+}
+#section-main{
+    
+}
+
+#header-1{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#image-header{
+    width: 50px;
+    height: auto;
+    color: #1976D2;
+    margin-bottom: 30px;
+}
+#section-1{
+
+}
+
+#section-2{
+
+}
+#section-3{
+
+}
+#section-4{
+
+}
+#section-5{
+
+}
+#section-6{
+
+}
+#section-7{
+
+}
+#section-8{
+
+}
+
+#a-tag{
+    text-decoration: none;
+    padding-right: 660px;
+    margin-top: 30px;
+}
+#section-inside1 , #section-inside2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+
+
+
+
+/* classs */
+
+
+
+.star-icon{
+    width: 20px;
+    height: auto;
+    color: yellow;
+    padding-bottom: 5px;
+
+}
+.main-parts{
+    width: 250px;
+    height: auto;
+    white-space: wrap;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: all 250ms ;
+}
+.main-parts:hover{
+    transform: scale(1.08);
+    .discount-holder {
+        width: 120px;
+        transform: scale(1);
+        transform : rotate(0deg); 
+        position: relative;
+        top: 0%;
+        left: 0%;
+        
+
+    }
+}
+.discount-holder{
+    
+}
+.images{
+    width: 220px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 100px;
+    white-space: wrap;
+}
+
+.section-scors{
+    display: flex;
+
+    flex-direction: row;
+
+}
+.section-price{
+
+}
+.dels{
+    font-family: iran-yekan;
+    font-size: small;
+    color: #455A64;
+}
+.discounts{
+    width: 25px;
+    background-color: #1976D2;
+    border-radius: 10px;
+    color: white;
+    font-family: lalezar;
+    
+
+}
+
+.prices{
+
+}
+.discounts, .dels{
+    display: flex;
+    flex-direction: row;
+}
+.discount-holder{
+    background-color: #1976D2;
+    color: white;
+    width: 40px;
+    height: 20px;
+    position: relative;
+    left: 40px;
+    font-family: lalezar;
+    text-align: center;
+    border-radius: 4px;
+    transform: rotate(40deg);
+    top: 10px;
+    transition: all 250ms ;
+
+}
